@@ -38,6 +38,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
+                android:inputType="textCapWords"
                 android:layout_height="wrap_content"
                 android:hint="Nome completo" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -54,6 +55,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="number"
                 android:hint="CPF" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -68,6 +70,7 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
+                android:inputType="number"
                 android:layout_height="wrap_content"
                 android:hint="Telefone com DDD" />
 
@@ -85,6 +88,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
                 android:hint="E-mail" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -93,6 +97,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            app:passwordToggleEnabled="true"
             app:layout_constraintEnd_toEndOf="@+id/formulario_cadastro_campo_email"
             app:layout_constraintStart_toStartOf="@+id/formulario_cadastro_campo_email"
             app:layout_constraintTop_toBottomOf="@+id/formulario_cadastro_campo_email">
@@ -100,6 +105,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="textPassword"
                 android:hint="Senha" />
         </com.google.android.material.textfield.TextInputLayout>
 
